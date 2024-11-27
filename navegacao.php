@@ -18,6 +18,9 @@
                     <button class="btn btn-outline-success" type="submit">Pesquisar</button>
                 </form>
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <?php
+                        if($_SESSION['tipo'] == 0){
+                    ?>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                             Administração
@@ -27,6 +30,9 @@
                             <li><a class="dropdown-item" href="utilizadores.php">Ver utilizadores</a></li>
                         </ul>
                     </li>
+                    <?php
+                    }
+                    ?>
                     <li class="nav-item">
                         <a class="nav-link" href="criar_topico.php">Criar tópico</a>
                     </li>
