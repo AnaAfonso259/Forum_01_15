@@ -1,0 +1,42 @@
+
+.monoton-regular {
+  font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bg-buzio {
+  background-color:rgb(8, 177, 17);
+}
+
+.bg-navegacao {
+  background-color:rgba(8, 177, 16, 0.363);
+}
+
+.datas {
+  font-size: x-small;
+  margin-bottom:auto;
+}
+
+.bg-topico {
+  background-color:rgba(68, 96, 69, 0.363);
+}
+
+.topico-titulo {
+  font-size:larger;
+  font-variant: small-caps;
+}
+
+.topico-utilizador {
+  background-color:rgb(220, 220, 220);
+}
+
+.topico-mensagem {
+  background-color:rgb(237, 237, 237);
+}
+
+.topico-icones {
+  max-width: 20px;
+  height: auto;
+}
+
