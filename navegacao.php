@@ -32,10 +32,14 @@
                     </li>
                     <?php
                     }
+                    if($_SESSION['tipo'] < 2){
                     ?>
                     <li class="nav-item">
                         <a class="nav-link" href="criar_topico.php">Criar tópico</a>
                     </li>
+                    <?php
+                    }
+                    ?>
                     <li class="nav-item">
                         <a class="nav-link active" href="topicos.php">Ver tópicos</a>
                     </li>
