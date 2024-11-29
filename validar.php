@@ -10,12 +10,17 @@
                 $_SESSION['erro'] = 'Credenciais erradas';
                 header('Location: login.php');
             }
+            else if($rs['ativo'] == 0){
+                $_SESSION['erro'] = 'Conta Desativada, contacte o admin';
+                header('Location: login.php');
+            }
             else {
                 $_SESSION['idutilizador'] = $rs['idutilizador'];
                 $_SESSION['utilizador'] = $rs['utilizador'];
                 $_SESSION['tipo'] = $rs['tipo']; // 0 admin, 1 utilizador
                 header('Location: topicos.php');
             }
+          
         }
     }
 ?>
