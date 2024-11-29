@@ -25,9 +25,9 @@ if ($_SESSION['tipo'] == 2) {
             <div class="row pt-2">
                 <div class="col-sm-12 d-flex justify-content-center">
                     <form action="./inserir_topico.php" method="post" style="width: 50%;">
-                        <textarea class="form-control mb-1" id="topico" name="topico" rows="3" required></textarea>
+                        <textarea class="form-control mb-1" id="topico" name="topico" rows="1" required autocomplete="off" placeholder="Nome do tópico"></textarea>
                         <div class="d-flex justify-content-center">
-                            <button type="submit" class="btn btn-outline-success mt-1">Inserir</button>
+                            <button type="submit" class="btn btn-outline-success mt-1">Criar Tópico</button>
                         </div>
                     </form>
                 </div>
